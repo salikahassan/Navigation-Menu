@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+      ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #37277e;
+}
+
+li {
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-left: 14px;
+  text-decoration: none;
+  transition: .4s;
+  height: 100px;
+  width: 100px;
+  line-height: 65px;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-top:1px solid rgba(255, 255,255, 1) ;
+  border-bottom: 1px solid black;
+}
+
+li a:hover {
+  background-color: #111111;
+  padding-left: 50px;
+}  
+header{
+    text-align: left;
+    font-size: 22px;
+    color: aliceblue;
+    background-color:white;
+    line-height:absolute;
+    background: #2eaae9;
+    user-select: none;
+    padding: 20px;
+    height: 100%;
+    width: 100px;
+}
+sidebar{
+    position: fixed;
+    left: 0%;
+    width: 250px;
+    height: 100%;
+    background-color: #042331;
+}
+    div{
+        
+        padding: 0;
+        display: flex;
+        height: 100%;
+    }
+    </style>
+</head>
+<body><header>My APP</header>
+    <div class="sidebar">
+    <ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">services</a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">contact us</a></li>
+    </ul>
+</body>
+</html>
